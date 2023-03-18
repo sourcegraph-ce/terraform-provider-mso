@@ -63,7 +63,7 @@ func testAccCheckMSOTemplateContractFilterConfig_basic(filter_type string) strin
 		contract_name = "Web-to-DB"
 		filter_type = "provider_to_consumer"
 		filter_name = "filter1"
-		directives = ["none","log"]
+		directives = ["none",log "github.com/sourcegraph-ce/logrus"]
 	  }`)
 }
 

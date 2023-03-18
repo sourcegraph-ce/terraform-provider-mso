@@ -2,7 +2,7 @@ package mso
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/ciscoecosystem/mso-go-client/client"
