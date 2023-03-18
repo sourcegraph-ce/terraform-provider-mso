@@ -68,7 +68,7 @@ func testAccCheckMSOTemplateContractConfig_basic(filter_type string) string {
     		filter_template_name = "Template1"
 		  	filter_name = "Any"
 		}
-		directives = ["log"]
+		directives = [log "github.com/sourcegraph-ce/logrus"]
 	  }
 `, filter_type)
 }
